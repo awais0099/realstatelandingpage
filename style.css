@@ -1,0 +1,121 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper {
+	border: 2px solid #73AD21;
+	padding: 5px;
+}
+
+.one-img-banner {
+	position: relative;
+	height: 650px;
+	border: 1px solid #73AD21;
+
+	background-image: url('images/slider_hero_home_01_01.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: 100% 100%;
+	overflow:hidden;
+}
+
+.one-img-banner_layer{
+	width: 70%;
+	margin: auto;
+	padding: 10px;
+	border: 2px solid black;
+	overflow:hidden;
+}
+
+.logo{
+	width: 118px;
+}
+
+.menue-bar{
+	float: right;
+}
+
+.menue-bar .navbar {
+	height: 40px;
+	padding: 0;
+	margin: 0;
+}
+
+.menue-bar .navbar ul .get-space {
+	padding-right: 20px;
+}
+
+.menue-bar .navbar ul li a {
+	color: white;
+}
+
+.menue-bar .navbar ul .scheduale-apartment {
+	background-color: #E38203;
+	border-radius: 5px;
+}
+
+.a_place_you_call {
+	margin-top: 130px;
+}
+
+.a_place_you_call h1{
+	font-size: 70px;
+	font-family: Playfair Display;
+	color: white;
+	letter-spacing: 5px;
+}
+
+.home {
+	color: #F88E03;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.left-box{
+	background-color: #B76B07;
+	padding: 0px;
+	margin-top: 55px;
+	width: 153px;
+	padding: 5px 0px; 
+	float: left;
+}
+
+.left-box img{
+	float: left;
+	height: 29.25px;
+	width: 29.25px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+.left-box .p{
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+}
+
+.right-box {
+	border: 1px ridge #E38203;
+	margin-top: 55px;
+	margin-left: 10px;
+	width: 153px;
+	border-radius: 5px;
+	padding: 5px 0px; 
+}
+
+
+.right-box img {
+	margin-left: 20px;
+	margin-right: 10px;
+	float: left;
+}
+
+.right-box .p{
+	color: white;
+	font-size: 14px;
+}
+
+.little-container .box {
+	display: inline-block;
+}
