@@ -23,7 +23,7 @@ body{
 	width: 70%;
 	margin: auto;
 	padding: 10px;
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 	overflow:hidden;
 }
 
@@ -118,4 +118,44 @@ body{
 
 .little-container .box {
 	display: inline-block;
+}
+
+/*   */
+
+#contents-container{
+	width: 70%;
+	margin: auto;
+	overflow:hidden;
+	border: 1px solid red;
+}
+
+.quality-comfort {
+	margin-top: 100px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quality-comfort .quality-comfort_lbox {
+	box-sizing: border-box;
+	padding: 200px 0px;
+}
+
+.quality-comfort .box {
+	display: inline-block;
+	border: 1px solid black;
+	width: 480px;
+	height: 550px;
+}
+
+.quality-comfort_lbox div .color-comfort {
+	color: #F88E03;
+}
+
+.quality-comfort_lbox div h1{
+	color: #214266;
+}
+
+.quality-comfort_rbox {
+	background-color: #214264;
 }
