@@ -138,8 +138,25 @@ body{
 
 .quality-comfort .quality-comfort_lbox {
 	box-sizing: border-box;
-	padding: 200px 0px;
+	padding: 150px 0px;
 }
+
+.quality-comfort .quality-comfort_subtext {
+	width: 350px;
+}
+
+.quality-comfort .discover-btn {
+	margin-top: 40px;
+}
+
+.quality-comfort .discover-btn a {
+	background-color: #B76B07;
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 0px;
+}
+
 
 .quality-comfort .box {
 	display: inline-block;
@@ -158,4 +175,29 @@ body{
 
 .quality-comfort_rbox {
 	background-color: #214264;
+	position: relative;
+
+	background-image: url('images/inner_03.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: 100% 100%;
+	overflow:hidden;
+}
+
+.quality-comfort_rbox table{
+	position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+.quality-comfort_rbox table tr {
+	color: white;
+}
+
+.quality-comfort_rbox table .subtext {
+	font-size: 12px;
+}
+
+.quality-comfort_rbox table tr .nomber {
+	font-weight: bold;
 }
