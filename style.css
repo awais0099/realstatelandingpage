@@ -136,6 +136,13 @@ body{
   align-items: center;
 }
 
+.quality-comfort .box {
+	display: inline-block;
+	/*border: 1px solid black;*/
+	width: 480px;
+	height: 550px;
+}
+
 .quality-comfort .quality-comfort_lbox {
 	box-sizing: border-box;
 	padding: 150px 0px;
@@ -158,12 +165,6 @@ body{
 }
 
 
-.quality-comfort .box {
-	display: inline-block;
-	border: 1px solid black;
-	width: 480px;
-	height: 550px;
-}
 
 .quality-comfort_lbox div .color-comfort {
 	color: #F88E03;
@@ -200,4 +201,134 @@ body{
 
 .quality-comfort_rbox table tr .nomber {
 	font-weight: bold;
+}
+
+/* Everything Within Reach */
+
+.everything-within-reach {
+	border: 1px solid black;
+	margin-top: 100px;
+	overflow: hidden;
+	background-color: #F2E6E6;
+	padding-bottom: 100px;
+}
+
+.everything-within-reach h1{
+	font-weight: bold;
+	padding-left: 47px;
+}
+
+.everything-within-reach .box{
+	display: inline-block;
+}
+
+.everything-within-reach .color-reach{
+	color: #F88E03;
+}
+
+.everything-within-reach .text-contents {
+	/*border: 1px solid red;	*/
+	width: 30%;
+	float: right;
+	padding-right: 30px;
+}
+
+.everything-within-reach .text-contents table tr:nth-of-type(odd) {
+	border-top: 1px solid gray;
+	border-top-style: groove;
+}
+
+.everything-within-reach .text-contents table .color-no {
+	color: #F88E03;
+}
+
+
+/* 4th section fr-thos-who-know */
+
+
+.fr-thos-who-know {
+	border: 1px solid black;
+	margin-top: 100px;
+	overflow: hidden;
+}
+
+.fr-thos-who-know_lbox {
+	max-width: 315px;
+	border: 1px solid black;
+}
+
+.fr-thos-who-know_lbox, .fr-thos-who-know_rbox {
+	display: inline-block;
+}
+
+.fr-thos-who-know_lbox h1 {
+	font-weight: bold;
+	color: #214266;
+}
+
+.fr-thos-who-know_lbox .color-choose {
+	color: #F88E03;
+} 
+
+.fr-thos-who-know_rbox {
+	/*margin-right: -200px;*/
+	margin-left: 10px;
+}
+
+.fr-thos-who-know_rbox .box {
+	display: inline-block;
+	border: 1px solid orange;
+	max-width: 270px;
+}
+
+.fr-thos-who-know_rbox .box h2 {
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.fr-thos-who-know_rbox .box table tr td:nth-of-type(even){
+	text-align: right;
+}
+
+.fr-thos-who-know_rbox .box a {
+	background-color: #B76B07;
+	padding: 9px 20px;
+	border-radius: 0;
+}
+
+.fr-thos-who-know_rbox .box .color-from55 {
+	color: #F88E03;
+}
+
+.fr-thos-who-know_bbox {
+	/*border: 1px solid blueviolet;*/
+}
+
+.fr-thos-who-know_bbox div {
+	width: 280px;
+	height: 210px;
+	border: 1px solid black;
+	position: relative;
+}
+
+.fr-thos-who-know_bbox div .sub-box {
+	width: 210px;
+	height: 94px;
+	background-color: #214266;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 15px 0;
+}
+.fr-thos-who-know_bbox div .sub-box p {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.fr-thos-who-know_bbox div .sub-box .heding {
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
 }
