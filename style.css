@@ -203,7 +203,7 @@ body{
 	font-weight: bold;
 }
 
-/* Everything Within Reach */
+/* 3rd-section Everything Within Reach */
 
 .everything-within-reach {
 	border: 1px solid black;
@@ -228,7 +228,7 @@ body{
 
 .everything-within-reach .text-contents {
 	/*border: 1px solid red;	*/
-	width: 30%;
+	width: 40%;
 	float: right;
 	padding-right: 30px;
 }
@@ -335,3 +335,48 @@ body{
 	font-weight: bold;
 	font-size: 20px;
 }
+
+/* 5th section / apartment-types */
+
+.apartment-types {
+	border: 1px solid black;
+	margin-top: 100px;
+	overflow: hidden;
+	background-color: #F2E6E6;
+	padding: 80px 0px;
+}
+
+.apartment-types h1{
+	font-weight: bold;
+	color: #214266;
+	/*padding-left: 47px;*/
+}
+
+.apartment-types .box{
+	display: inline-block;
+}
+
+.apartment-types .color-interiors{
+	color: #F88E03;
+}
+
+.apartment-types .text-contents {
+	/*border: 1px solid red;	*/
+	width: 40%;
+	float: right;
+	/*padding-right: 30px;*/
+}
+
+.apartment-types .text-contents .view-more {
+	padding: 10px 20px;
+	border-color: #B76B07;
+	color: #B76B07;
+}
+
+.apartment-types .text-contents .download-bro {
+	padding: 10px 20px;
+	background-color: #B76B07;
+	border: none;
+	color: white;
+}
+	
