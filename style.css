@@ -254,7 +254,7 @@ body{
 
 .fr-thos-who-know_lbox {
 	max-width: 315px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 }
 
 .fr-thos-who-know_lbox, .fr-thos-who-know_rbox {
@@ -277,7 +277,7 @@ body{
 
 .fr-thos-who-know_rbox .box {
 	display: inline-block;
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 	max-width: 270px;
 }
 
@@ -303,13 +303,16 @@ body{
 
 .fr-thos-who-know_bbox {
 	/*border: 1px solid blueviolet;*/
+	padding: 10px 10px 10px 45px;
 }
 
 .fr-thos-who-know_bbox div {
 	width: 280px;
 	height: 210px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	position: relative;
+	display: inline-block;
+	margin: 0px auto;
 }
 
 .fr-thos-who-know_bbox div .sub-box {
